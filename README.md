@@ -1,4 +1,4 @@
-# C_Queue
+# C-Stack
 A generic implementation of a stack in C.
 
 ### Demo
