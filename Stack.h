@@ -10,9 +10,9 @@
 
 typedef struct Stack_
 {
-  size_t memSize;
-  size_t size;
-  struct StackNode *top;
+    size_t memSize;
+    size_t size;
+    struct StackNode *top;
 } Stack;
 
 void stackClear(Stack *);
@@ -24,4 +24,3 @@ int stackPush(Stack *, const void *);
 size_t stackSize(const Stack *);
 
 #endif
-
